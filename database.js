@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb+srv://superuser:superuser@miclustersolvam.8x0gl.mongodb.net/solvam2425?retryWrites=true&w=majority&appName=MiClusterSolvam'
+const URI = 'URL DE MONGODB'
 
 mongoose.connect(URI)
 .then(db => console.log('DB Connected'))
